@@ -1,13 +1,14 @@
+/* This symbol is the universal symbol for CSS. This content will be applied to the whole page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Essentially this is our background color for the entire screen. */
 body {
     background-color: #d9dcd6;
 }
-
+/* This .header tag will give our header its colors and font families */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,11 +20,11 @@ body {
     display: inline-block;
     font-size: 48px;
 }
-
+/* As mentioned in the HTML, this is where we add different colors to our first heading */
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* This is just the style for our links */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -49,7 +50,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* This is the styling for our background picture */
 .hero {
     height: 800px;
     width: 100%;
